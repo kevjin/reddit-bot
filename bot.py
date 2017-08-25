@@ -1,7 +1,7 @@
 import praw
 import os
 import time
-
+ 
 SUB_REDDIT = "jokes"
 FRESH_MIN = 300.0 # at least x hours
 FRESH_MULTI = 20 #freshness multiplier, hours * fresh_multi is upper bound for score
